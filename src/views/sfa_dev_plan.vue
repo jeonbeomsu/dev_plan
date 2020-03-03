@@ -24,7 +24,7 @@
         <div class="container">
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
-               <h1 class="display-1">Contents</h1>
+               <h1 class="display-1" style="color:black;"><md-icon style="color:black;">apps</md-icon> Contents <md-icon style="color:black;">apps</md-icon></h1>
             </div>
           </div>
           <basic-elements></basic-elements>
