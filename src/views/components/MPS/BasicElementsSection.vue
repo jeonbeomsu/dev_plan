@@ -39,18 +39,12 @@
 
       <div class="title">
         <h1 class="display-3" style="color:black;">
-          <md-icon style="color:black;">lens</md-icon> 사용언어 및 개발환경<br/><br/><br/>
+          <md-icon style="color:black;">lens</md-icon> 사용언어 및 개발환경<br/>
         </h1>
-        <div class="md-layout">
-          <div class="md-layout-item md-size-66 mx-auto">
-            
-          </div>
-        </div>
       </div>
     </div>
     <!-- end buttons -->
     
-    <div class="space-50"></div>
 
     <!-- Inputs
     <div id="inputs">
@@ -171,8 +165,6 @@
     </div>
      end Checkboxes/Radios/Toggle -->
 
-    <div class="space-70"></div>
-
     <!-- Progress/Pagination
     <div id="progress-pagination">
       <div class="md-layout">
@@ -213,7 +205,6 @@
     </div>
     end progress/pagination -->
 
-    <div class="space-50"></div>
 
     <!-- Sliders
     <div id="sliders">

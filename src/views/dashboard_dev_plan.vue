@@ -9,7 +9,7 @@
             
             
             <div class="brand">
-              <h1 style="color:white;">SAMPLE 1</h1>
+              <h1 style="color:white;">경영정보 대시보드</h1>
               <h3 style="color:white;">(개발 계획서, 시스템 설계서)</h3>
             </div>
           </div>
@@ -69,11 +69,7 @@
       </div>
 
     <!-- 업무 흐름도 -->
-      <div class="section section-javascript">
-        <div class="container">
-          <work-flow></work-flow>
-        </div>
-      </div>
+      
     <!-- DB 설계도 -->
       <div class="section section-tabs">
         <div class="container">
@@ -312,18 +308,18 @@
 </template>
 
 <script>
-import BasicElements from "./components/MPS/BasicElementsSection";
+import BasicElements from "./components/DASH/BasicElementsSection";
 //import Navigation from "./components/NavigationSection";
-import Tabs from "./components/MPS/TabsSection";
+import Tabs from "./components/DASH/TabsSection";
 //import NavPills from "./components/NavPillsSection";
 //import Notifications from "./components/NotificationsSection";
 //import TypographyImages from "./components/TypographyImagesSection";
-import WorkFlow from "./components/MPS/WorkFlowSection";
-import ScreenDesign from "./components/MPS/ScreenDesign";
-import DataDesign from "./components/MPS/DataDesign";
+
+import ScreenDesign from "./components/DASH/ScreenDesign";
+import DataDesign from "./components/DASH/DataDesign";
 //import { LoginCard } from "@/components";
 import About from "./components/About";
-import ProjectsTable from "./Tables/MPS/ProjectsTable";
+import ProjectsTable from "./Tables/DASH/ProjectsTable";
 
 export default {
   components: {
@@ -333,7 +329,7 @@ export default {
 //    NavPills,
 //    Notifications,
 //    TypographyImages,
-    WorkFlow,
+  
     ScreenDesign,
     DataDesign,
 //    LoginCard,

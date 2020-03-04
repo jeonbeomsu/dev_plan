@@ -9,7 +9,7 @@
             
             
             <div class="brand">
-              <h1 style="color:white;">SAMPLE 2</h1>
+              <h1 style="color:white;">SFA MR REPORT</h1>
               <h3 style="color:white;">(개발 계획서, 시스템 설계서)</h3>
             </div>
           </div>
@@ -312,18 +312,18 @@
 </template>
 
 <script>
-import BasicElements from "./components/MPS/BasicElementsSection";
+import BasicElements from "./components/MR/BasicElementsSection";
 //import Navigation from "./components/NavigationSection";
-import Tabs from "./components/MPS/TabsSection";
+import Tabs from "./components/MR/TabsSection";
 //import NavPills from "./components/NavPillsSection";
 //import Notifications from "./components/NotificationsSection";
 //import TypographyImages from "./components/TypographyImagesSection";
-import WorkFlow from "./components/MPS/WorkFlowSection";
-import ScreenDesign from "./components/MPS/ScreenDesign";
-import DataDesign from "./components/MPS/DataDesign";
+import WorkFlow from "./components/MR/WorkFlowSection";
+import ScreenDesign from "./components/MR/ScreenDesign";
+import DataDesign from "./components/MR/DataDesign";
 //import { LoginCard } from "@/components";
 import About from "./components/About";
-import ProjectsTable from "./Tables/MPS/ProjectsTable";
+import ProjectsTable from "./Tables/MR/ProjectsTable";
 
 export default {
   components: {

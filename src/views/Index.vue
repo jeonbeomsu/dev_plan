@@ -9,7 +9,7 @@
             
             
             <div class="brand">
-              <h1 style="color:white;">Software Engineering</h1>
+              <h1 style="color:white;">MES 생산계획</h1>
               <h3 style="color:white;">(개발 계획서, 시스템 설계서)</h3>
             </div>
           </div>

@@ -13,7 +13,7 @@
           >
             <!-- here you can add your content for tab-content -->
             <template slot="tab-pane-1">
-            <h4>
+            <h4><md-icon>arrow_drop_down_circle</md-icon>
               재고 비용 최소화
             </h4>
             <h5>
@@ -24,7 +24,7 @@
             </h5>
             </template>
             <template slot="tab-pane-2">
-              <h4>
+              <h4><md-icon>arrow_drop_down_circle</md-icon>
               자재 회전율의 증가
               </h4>
               <h5>
