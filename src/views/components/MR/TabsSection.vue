@@ -13,7 +13,7 @@
           >
             <!-- here you can add your content for tab-content -->
             <template slot="tab-pane-1">
-            <h4>
+            <h4><md-icon>arrow_drop_down_circle</md-icon>
               재고 비용 최소화
             </h4>
             <h5>
@@ -24,7 +24,7 @@
             </h5>
             </template>
             <template slot="tab-pane-2">
-              <h4>
+              <h4><md-icon>arrow_drop_down_circle</md-icon>
               자재 회전율의 증가
               </h4>
               <h5>
@@ -36,7 +36,7 @@
             </template>
             <template slot="tab-pane-3">
               <h5><md-icon>arrow_right</md-icon>개발 계획서</h5>
-              <h5><md-icon>arrow_right</md-icon>MPS 분석자료</h5>
+              <h5><md-icon>arrow_right</md-icon>MPS 업무 흐름도</h5>
               <h5><md-icon>arrow_right</md-icon>DB 설계도</h5>
               <h5><md-icon>arrow_right</md-icon>TPMS-생산계획 프로그램</h5>
               <h5><md-icon>arrow_right</md-icon>프로그램 검수 확인서</h5>
@@ -56,17 +56,17 @@
             <!-- here you can add your content for tab-content -->
             <template slot="tab-pane-1">
               <h5>
-              본 문서는 유영제약에서 사용하는 TPMS-생산계획 프로그램의 개발 계획에 대하여 서술한다.
+              본 문서는 유영제약에서 사용하는 SFA-MR REPORT 프로그램의 개발 계획에 대하여 서술한다.
               </h5>
               <h5>
-              생산계획 프로그램에는 안전재고 생성, 판매계획 등록, 기초재고 생성, LOT 편성, 투입일 산출 메뉴를 포함한다.
+              MR REPORT 프로그램에는 REPORT 메뉴를 포함한다.
               </h5>
             </template>
             <template slot="tab-pane-2">
               <h5>
-              본 문서는 유영제약에 구축된 TPMS가 범위에 포함된다. 본 문서에서는 생산계획 프로그램에 대한 설계규격을 포함한다.
+              본 문서는 유영제약에 구축된 SFA가 범위에 포함된다. 본 문서에서는 MR REPORT 프로그램에 대한 설계규격을 포함한다.
               </h5>
-              <h5><md-icon>arrow_right</md-icon>생산계획 업무 흐름도</h5>
+              <h5><md-icon>arrow_right</md-icon>REPORT 업무 흐름도</h5>
               <h5><md-icon>arrow_right</md-icon>프로그램화면 구성도</h5>
               <h5><md-icon>arrow_right</md-icon>데이터베이스 구성도</h5>
             </template>

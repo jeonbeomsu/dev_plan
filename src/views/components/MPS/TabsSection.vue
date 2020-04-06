@@ -36,7 +36,7 @@
             </template>
             <template slot="tab-pane-3">
               <h5><md-icon>arrow_right</md-icon>개발 계획서</h5>
-              <h5><md-icon>arrow_right</md-icon>MPS 분석자료</h5>
+              <h5><md-icon>arrow_right</md-icon>MPS 업무 흐름도</h5>
               <h5><md-icon>arrow_right</md-icon>DB 설계도</h5>
               <h5><md-icon>arrow_right</md-icon>TPMS-생산계획 프로그램</h5>
               <h5><md-icon>arrow_right</md-icon>프로그램 검수 확인서</h5>

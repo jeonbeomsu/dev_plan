@@ -79,8 +79,8 @@
 
 export default {
   components: {
-        //BCarousel,
-        //BCarouselSlide
+//      BCarousel,
+//      BCarouselSlide
     }
 };
 </script>

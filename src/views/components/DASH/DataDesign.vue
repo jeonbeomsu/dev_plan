@@ -162,7 +162,7 @@
                 <div class="carousel-caption">
                   <h4 style="color:white;">
                     <md-icon>location_on</md-icon>
-                    안전재고 생성
+                    로그인 Stored Procedure
                   </h4>
                 </div>
                 <img :src="carousel1" alt="carousel1" />
@@ -171,19 +171,10 @@
                 <div class="carousel-caption">
                   <h4 style="color:white;">
                     <md-icon>location_on</md-icon>
-                    생산 계획 등록
+                    매출/수금 Stored Procedure
                   </h4>
                 </div>
                 <img :src="carousel2" alt="carousel2" />
-              </slide>
-              <slide>
-                <div class="carousel-caption">
-                  <h4 style="color:white;">
-                    <md-icon>location_on</md-icon>
-                    투입일 산출
-                  </h4>
-                </div>
-                <img :src="carousel3" alt="carousel3" />
               </slide>
             </carousel>
           </md-card>
@@ -203,9 +194,8 @@ export default {
     return {
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
-      carousel1: require("@/assets/img/sample1.jpg"),
-      carousel2: require("@/assets/img/sample2.jpg"),
-      carousel3: require("@/assets/img/sample3.jpg")
+      carousel1: require("@/assets/img/DASH/db/sample1.jpg"),
+      carousel2: require("@/assets/img/DASH/db/sample2.jpg"),
     };
   },
   methods: {

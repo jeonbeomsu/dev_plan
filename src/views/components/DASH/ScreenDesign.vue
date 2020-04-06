@@ -160,7 +160,7 @@
             >
               <slide>
                 <div class="carousel-caption">
-                  <h4 style="color:white;">
+                  <h4 class= "font-weight-bold" style="color:gray;">
                     <md-icon>location_on</md-icon>
                     로그인 페이지
                   </h4>
@@ -169,7 +169,7 @@
               </slide>
               <slide>
                 <div class="carousel-caption">
-                  <h4 style="color:white;">
+                  <h4 class= "font-weight-bold" style="color:gray;">
                     <md-icon>location_on</md-icon>
                     매출현황 페이지
                   </h4>
@@ -178,7 +178,7 @@
               </slide>
               <slide>
                 <div class="carousel-caption">
-                  <h4 style="color:white;">
+                  <h4 class= "font-weight-bold" style="color:gray;">
                     <md-icon>location_on</md-icon>
                     개발자 소개 페이지
                   </h4>
@@ -205,7 +205,7 @@ export default {
       selectedDate: new Date("2018/03/26"),
       carousel1: require("@/assets/img/DASH/login.jpg"),
       carousel2: require("@/assets/img/DASH/dash.jpg"),
-      carousel3: require("@/assets/img/sample3.jpg")
+      carousel3: require("@/assets/img/DASH/about.jpg")
     };
   },
   methods: {
